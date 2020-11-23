@@ -39,10 +39,10 @@ VAR <- fviz_pca_var(res.pca, col.var="cos2", # colorier les variables en fonctio
 )
 
 fac <- factor(paste(percent$station))
+lab<- factor(paste(percent$time))
 IND <- fviz_pca_ind(res.pca,
-                    label = "none", # cacher les étiquettes
+                    label = "none",
                     habillage = fac, # couleur selon le facteur
-                    palette = my.palette(length(levels(fac))), # controler les couleurs
                     addEllipses = TRUE # ajouter des ellipses
 )
 
