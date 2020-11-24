@@ -1,6 +1,6 @@
 # DCE-mangroves
 
-Ce dépôt est dédié à l'analyse des données du GT DCE Mangrove
+Ce dépôt est dédié à l'analyse des données du GT DCE Mangrove (https://borea.mnhn.fr/fr/programme-recherche/bioindication-mangroves)
 
 Description :
 Développement d’outils de bio-indication en mangroves, destinés à évaluer l’état écologique des masses d’eau côtières dans le cadre de la Directive européenne Cadre sur l’Eau.
