@@ -15,7 +15,11 @@ Coordinateur du projet :
 Guillaume Dirberg, MNHN/BOREA, guillaume.dirberg@mnhn.fr
 
 Partenaires :
-UMR BOREA;
-UMR ECOLAB;
-UMR LEMAR;
-UMR MIO;
+
+Laboratoire Biologie des organismes et écosystèmes aquatiques (https://borea.mnhn.fr/fr);
+
+Laboratoire écologie fonctionnelle et environnement (https://www.eco.omp.eu/);
+
+Laboratoire des sciences de l'environnement marin (https://www-iuem.univ-brest.fr/lemar/);
+
+Institut Méditerranéen d'Océanologie (https://www.mio.osupytheas.fr/fr)
