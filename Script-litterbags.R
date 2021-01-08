@@ -9,7 +9,6 @@ library(ade4)
 library(vegan)
 library(factoextra)
 library(cowplot)
-library(vegan)
 library(viridis)
 
 ###################################
