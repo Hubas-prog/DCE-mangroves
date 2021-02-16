@@ -12,7 +12,7 @@ library(cowplot)
 library(viridis)
 
 ###################################
-# Data pigments
+# Data pigments + data microbiote
 ###################################
 
 setwd("~/sync/mangroves/DCE-mangroves/")
