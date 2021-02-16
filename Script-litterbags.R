@@ -15,8 +15,34 @@ library(viridis)
 # Data pigments
 ###################################
 
-percent <- read.table("litterbags-pigments-all.txt",h=T)
-PERCENT <- read.table("litterbags-pigments-short.txt",h=T)
+setwd("~/sync/mangroves/DCE-mangroves/")
+
+pig <- read.table("litterbags-pigments-all.txt",h=T)
+pig_short <- read.table("litterbags-pigments-short.txt",h=T)
+pig$ID <- paste(substr(pig$ID,3,4), substr(pig$ID,1,2), substr(pig$ID,5,6), sep="")
+rownames(pig) <- pig$ID
+dim(pig)
+
+mic16S <- read.csv2("table_OTU_table97_guyane_LB_16SV4.csv", header=T,sep="\t")
+mic16S <- as.data.frame(t(mic16S))
+dim(mic16S)
+colnames(mic16S) <- paste0("OTU", 1:ncol(mic16S))
+mic16S <- mic16S[-1:-2,]
+mic16S[1:10,1:10]
+
+rownames(pig)
+rownames(mic16S) -> mic16S$ID
+
+table1 <- merge(pig,mic16S, by="ID")
+dim(table1)
+table1[1:10,25:35]
+
+
+
+
+
+
+
 
 ###################################
 # Aesthetics
